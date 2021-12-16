@@ -4,7 +4,6 @@
 //
 //  Created by PM JavaScript - Ja'kobe Stumon on 12/3/21.
 //
-
 import SwiftUI
 
 struct HomeView: View {
@@ -29,9 +28,9 @@ struct HomeView: View {
                                 NavigationLink(
                                     destination:
                                         ContentView()
-                                        .onAppear(perform: {
-                                            model.beginModule(module.id)
-                                        }),
+                                            .onAppear(perform: {
+                                                model.beginModule(module.id)
+                                            }),
                                     label: {
                                         
                                         // Learning Card
@@ -55,8 +54,6 @@ struct HomeView: View {
             }
             .navigationTitle("Get Started")
         }
-        
-        
     }
 }
 

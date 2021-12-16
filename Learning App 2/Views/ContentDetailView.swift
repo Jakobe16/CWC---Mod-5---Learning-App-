@@ -5,6 +5,7 @@
 //  Created by PM JavaScript - Ja'kobe Stumon on 12/13/21.
 //
 
+
 import SwiftUI
 import AVKit
 
@@ -32,7 +33,7 @@ struct ContentDetailView: View {
                 Button(action: {
                     
                     // Advance the lesson
-                    model.hasNextLesson()
+                    model.nextLesson()
                     
                 }, label: {
                     
